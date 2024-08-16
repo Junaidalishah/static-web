@@ -1,0 +1,60 @@
+.Foodmenu {
+  background-color: rgb(235, 234, 232);
+}
+.food {
+  padding-top: 60px;
+  margin-top: 5px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 90px;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 550px;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.food-img {
+  width: 70px;
+  height: 73px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.name,
+.price,
+.desc {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+button {
+  margin: 0;
+  margin-top: 5px;
+  width: 90px;
+  background-color: rgb(252, 3, 123);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-start;
+}

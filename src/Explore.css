@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.explore-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.explore-container div {
+  position: relative;
+  width: 280px;
+  text-align: center;
+}
+
+.explore-container img {
+  width: 280px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.explore-container h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  color: white;
+  font-size: 16px;
+}
